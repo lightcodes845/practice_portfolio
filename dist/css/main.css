@@ -115,7 +115,7 @@ input[class^="btn-"]:hover {
   .item:hover::after {
     transform: scale(2) translateX(0) translateY(0) rotate(-28deg); }
   .item:hover .item-image {
-    opacity: transform scale(1.2); }
+    transform: scale(1.2); }
   .item:hover .item-text {
     opacity: 1;
     transform: translateY(0); }
@@ -142,6 +142,7 @@ input[class^="btn-"]:hover {
     left: 0;
     right: 0;
     bottom: 0;
+    opacity: 0;
     text-align: center;
     z-index: 1;
     color: #fff;
@@ -154,7 +155,7 @@ input[class^="btn-"]:hover {
     top: 50%;
     transform: translateY(-50%); }
   .item-text-title {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 0 1rem;
     margin: 5px 0 0 0; }
   .item-text-category {
